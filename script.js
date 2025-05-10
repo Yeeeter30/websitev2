@@ -26,3 +26,7 @@ var copy = "https://roblox.com";
 
 navigator.clipboard.writeText(copy)
 }
+
+function doit() {
+    document.getElementById("test").innerHTML = "No robux for you";
+}
