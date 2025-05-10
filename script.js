@@ -5,3 +5,9 @@ function increase() {
     
 document.getElementById("counter").innerText = count;
 }
+
+function decrease() {
+    count--;
+    
+document.getElementById("counter").innerText = count;
+}
