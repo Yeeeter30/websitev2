@@ -30,3 +30,7 @@ navigator.clipboard.writeText(copy)
 function doit() {
     document.getElementById("test").innerHTML = "No robux for you";
 }
+
+function time() {
+    document.getElementById("time1").innerHTML = Date()
+}
