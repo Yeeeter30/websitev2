@@ -13,9 +13,11 @@ document.getElementById("counter").innerText = count;
 }
 
 function reset() {
+    if (count > 0) {
     count = 0;
     
 document.getElementById("counter").innerText = count;
+}
 }
 
 function copy() {
