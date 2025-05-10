@@ -11,3 +11,16 @@ function decrease() {
     
 document.getElementById("counter").innerText = count;
 }
+
+function reset() {
+    count = 0;
+    
+document.getElementById("counter").innerText = count;
+}
+
+function copy() {
+
+var copy = "https://roblox.com";
+
+navigator.clipboard.writeText(copy)
+}
